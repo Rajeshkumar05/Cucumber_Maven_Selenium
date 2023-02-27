@@ -6,11 +6,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features={"src/test/resources/Feature/Sample.feature"},
-		glue={"StepDefination1"},
+		features={"src/test/resources/Features/UIScenario.feature"},
+		glue={"StepDefinations"},
 		plugin= {"html:target/cucumber-html-report/index.html"}
 		)
-public class SampleRunner {
+public class UIScenarioRunner {
 
 }
 

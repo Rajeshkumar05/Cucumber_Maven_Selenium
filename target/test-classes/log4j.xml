@@ -11,7 +11,7 @@
 	    </layout>
 </appender>
 <appender name="fileAppender" class="org.apache.log4j.FileAppender">
-	<param name="file" value="src/test/resources/log/applog.txt"/>
+	<param name="file" value="src/test/resources/log/Coinmarketcap.txt"/>
 	<param name="append" value="false" />
 	<layout class="org.apache.log4j.PatternLayout">
 		<param name="ConversionPattern" value=" [%-5p] %m %n" />

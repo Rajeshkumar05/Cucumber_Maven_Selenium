@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.interactions.Actions;
 
 
-public class WebelementByFindBy {
+public class CoinMarketCapPage {
 	
 	WebDriver driver;
-	public WebelementByFindBy(WebDriver ldriver)
+	public CoinMarketCapPage(WebDriver ldriver)
 	{
 	this.driver=ldriver;
 	}
