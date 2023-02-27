@@ -1,0 +1,3 @@
+ChromeDriver=src\\test\\resources\\chromedriver.exe
+URL=https://coinmarketcap.com/
+Log4jConfigure=src\\test\\resources\\log4j.xml
