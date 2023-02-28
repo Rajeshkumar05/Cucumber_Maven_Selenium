@@ -8,30 +8,30 @@ import java.util.Properties;
 
 public class Utility {
 	
-Properties po;
+Properties properties;
 	
 public  Utility() throws Exception
 	{
 		File src=new File("src\\test\\java\\ObjectRepository\\Configuration.property");
 		FileInputStream fis=new FileInputStream(src);
-		po=new Properties();
-		po.load(fis);
+		properties=new Properties();
+		properties.load(fis);
 			
 		}
 	
 public String getChromePath()
 	{
-	  return po.getProperty("ChromeDriver");
+	  return properties.getProperty("ChromeDriver");
 	}
 	
 public String getUrl()
 	{
-		return po.getProperty("URL");
+		return properties.getProperty("URL");
 	}
 
 public String getLog4jConfigure()
 {
-	return po.getProperty("Log4jConfigure");
+	return properties.getProperty("Log4jConfigure");
 }
 
 }

@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
-
 import ObjectRepository.Utility;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -20,7 +19,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 public class UIScenarioStepDefination {
-	Utility util;
+	Utility utility;
     WebDriver driver; 
 	CoinMarketCapPage coinMarketCapPage;
 	private static Logger Log = Logger.getLogger(UIScenarioStepDefination.class.getName());
@@ -28,16 +27,16 @@ public class UIScenarioStepDefination {
 	
  @Before
 public void setup() throws Exception{
-	 util=new Utility();
-	 System.setProperty("webdriver.chrome.driver",util.getChromePath()); 
+	 utility=new Utility();
+	 System.setProperty("webdriver.chrome.driver",utility.getChromePath()); 
 	 driver = new ChromeDriver();
 	 coinMarketCapPage=PageFactory.initElements(driver, CoinMarketCapPage.class);
-	 DOMConfigurator.configure(util.getLog4jConfigure());
+	 DOMConfigurator.configure(utility.getLog4jConfigure());
 	}
 		
 @Given("^I open the coin market application$")
 public void i_open_the_coin_market_application() throws Throwable {
-	 driver.get(util.getUrl());
+	 driver.get(utility.getUrl());
 	 driver.manage().window().maximize();
 	 driver.navigate().refresh();
 	 driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
