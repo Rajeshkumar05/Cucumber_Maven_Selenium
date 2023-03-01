@@ -1,3 +1,6 @@
+ [INFO ] GTQ to GBP = 1064697.9 
+ [INFO ] GBP to DOGE = 1.5619623E7 
+ [INFO ] Response code value is 200 
  [INFO ] Number of available names are: 20 
  [INFO ] Available names are :Bitcoin 
  [INFO ] Available names are :Ethereum 
@@ -6,8 +9,8 @@
  [INFO ] Available names are :USD Coin 
  [INFO ] Available names are :XRP 
  [INFO ] Available names are :Cardano 
- [INFO ] Available names are :Polygon 
  [INFO ] Available names are :Dogecoin 
+ [INFO ] Available names are :Polygon 
  [INFO ] Available names are :Binance USD 
  [INFO ] Available names are :Solana 
  [INFO ] Available names are :Polkadot 
@@ -19,17 +22,27 @@
  [INFO ] Available names are :Uniswap 
  [INFO ] Available names are :Chainlink 
  [INFO ] Available names are :Cosmos 
- [INFO ] Number of available prices are:10 
+ [INFO ] Number of available prices are:20 
+ [INFO ] Available prices are :$23,679.52 
+ [INFO ] Available prices are :$1,652.10 
  [INFO ] Available prices are :$1.00 
- [INFO ] Available prices are :$303.05 
+ [INFO ] Available prices are :$302.89 
+ [INFO ] Available prices are :$0.9999 
+ [INFO ] Available prices are :$0.38 
+ [INFO ] Available prices are :$0.3613 
+ [INFO ] Available prices are :$0.08196 
+ [INFO ] Available prices are :$1.24 
  [INFO ] Available prices are :$1.00 
- [INFO ] Available prices are :$0.3623 
- [INFO ] Available prices are :$1.25 
- [INFO ] Available prices are :$1.00 
- [INFO ] Available prices are :$6.52 
- [INFO ] Available prices are :$0.00001234 
- [INFO ] Available prices are :$17.69 
- [INFO ] Available prices are :$7.44 
+ [INFO ] Available prices are :$22.60 
+ [INFO ] Available prices are :$6.51 
+ [INFO ] Available prices are :$97.30 
+ [INFO ] Available prices are :$0.00001231 
+ [INFO ] Available prices are :$0.06995 
+ [INFO ] Available prices are :$17.67 
+ [INFO ] Available prices are :$0.9999 
+ [INFO ] Available prices are :$6.79 
+ [INFO ] Available prices are :$7.43 
+ [INFO ] Available prices are :$12.83 
  [INFO ] Number of Filter names are: 2 
  [INFO ] Monero Does not available from the list of 20 rows 
  [INFO ] Bitcoin Cash Does not available from the list of 20 rows 

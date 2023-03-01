@@ -1,4 +1,4 @@
-Feature: Conversion of currency
+Feature: Conversion of currency
 
 Scenario: API calls to double convert currencies
 Given I set the base URI
