@@ -34,4 +34,31 @@ public String getLog4jConfigure()
 	return properties.getProperty("Log4jConfigure");
 }
 
+public String guatemalanQuetzal()
+{
+	return properties.getProperty("GuatemalanQuetzal");
+}
+
+public String britishPound()
+{
+	return properties.getProperty("BritishPound");
+}
+
+public String dogeCoin()
+{
+	return properties.getProperty("DogeCoin");
+}
+
+public String getUri()
+{
+	return properties.getProperty("URI");
+}
+
+public double amount()
+
+{
+	String amount=properties.getProperty("Amount");
+	double doubleValue=Double.parseDouble(amount);
+	return doubleValue;
+}
 }

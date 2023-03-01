@@ -1,7 +1,7 @@
-Feature: Currency Conversion 
+Feature: Conversion of currency
 
-Scenario: API calls to convert currencies
-Given I set the API key and header values
-When I parse JSON array for fetching price value
-Then Price is convert to British Pound
-Then Received GBP to doge coin
+Scenario: API calls to double convert currencies
+Given I set the base URI
+When I convert the price of Guatemalan Quetzal to British Pound
+Then I convert the Received British Pound to doge coin
+And I validated the status code

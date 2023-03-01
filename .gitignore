@@ -1,0 +1,10 @@
+
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+.settings
+.loadpath
+
+/target/
