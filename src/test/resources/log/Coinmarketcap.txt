@@ -1,4 +1,4 @@
- [INFO ] Number of available names are: 20 
+ [INFO ] Number of available names are: 21 
  [INFO ] Available names are :Bitcoin 
  [INFO ] Available names are :Ethereum 
  [INFO ] Available names are :Tether 
@@ -11,31 +11,26 @@
  [INFO ] Available names are :Binance USD 
  [INFO ] Available names are :Solana 
  [INFO ] Available names are :Polkadot 
- [INFO ] Available names are :Shiba Inu 
  [INFO ] Available names are :Litecoin 
+ [INFO ] Available names are :Shiba Inu 
  [INFO ] Available names are :TRON 
  [INFO ] Available names are :Avalanche 
  [INFO ] Available names are :Dai 
  [INFO ] Available names are :Uniswap 
  [INFO ] Available names are :Wrapped Bitcoin 
  [INFO ] Available names are :Chainlink 
- [INFO ] Number of available prices are:16 
+ [INFO ] Number of available prices are:11 
  [INFO ] Available prices are :$1.00 
- [INFO ] Available prices are :$304.15 
+ [INFO ] Available prices are :$304.94 
  [INFO ] Available prices are :$1.00 
- [INFO ] Available prices are :$0.3776 
- [INFO ] Available prices are :$0.3652 
- [INFO ] Available prices are :$0.08236 
- [INFO ] Available prices are :$1.23 
+ [INFO ] Available prices are :$1.24 
  [INFO ] Available prices are :$1.00 
- [INFO ] Available prices are :$22.40 
- [INFO ] Available prices are :$6.56 
- [INFO ] Available prices are :$0.00001251 
- [INFO ] Available prices are :$94.01 
- [INFO ] Available prices are :$0.06965 
- [INFO ] Available prices are :$17.72 
- [INFO ] Available prices are :$6.50 
- [INFO ] Available prices are :$7.32 
+ [INFO ] Available prices are :$0.00001244 
+ [INFO ] Available prices are :$0.06933 
+ [INFO ] Available prices are :$17.58 
+ [INFO ] Available prices are :$1.00 
+ [INFO ] Available prices are :$6.61 
+ [INFO ] Available prices are :$7.41 
  [INFO ] Number of Filter names are: 2 
  [INFO ] Monero Does not available from the list of 20 rows 
  [INFO ] Bitcoin Cash Does not available from the list of 20 rows 
