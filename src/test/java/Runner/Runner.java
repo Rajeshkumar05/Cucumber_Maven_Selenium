@@ -11,6 +11,5 @@ import io.cucumber.junit.CucumberOptions;
 		plugin= {"html:target/cucumber-html-report/index.html"}
 		)
 public class Runner {
-
 }
 
