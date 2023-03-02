@@ -1,4 +1,4 @@
-package ObjectRepository;
+package Utils;
 
 import static io.restassured.RestAssured.given;
 import org.testng.Assert;

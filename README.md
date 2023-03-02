@@ -3,6 +3,11 @@ Requirements
 Recommended modules
 Installation
 Configuration
+Page Object
+Utils
+Property
+Logs
+Execution Process
 
 ## Requirements
 cucumber(Version 7.11.1)
@@ -18,21 +23,21 @@ https://pro-api.coinmarketcap.com/
 Add all the required dependencies in POM.xml file
 
 ##  Configuration
-Kept all module wise scenarios in UIScenario.feature and APiScenario.feature file
-created Step defination for ApiScenarioStepDefination and UIScenarionStepDefination with the help for feature file's skeleton structure
+Kept all module wise scenarios in src/test/resources/Features/UIScenario.feature and APiScenario.feature file
+created Step defination on src/test/java/StepDefination/ApiScenarioStepDefination.java and UIScenarionStepDefination.java with the help for feature file's skeleton structure
 
-## Page Factory
-All locators will be written on CoinMarketCapPage.java
+## Page Object
+All locators will be written on src/test/java/PageObject/CoinMarketCapPage.java
 
-## Object Repository
-All data kept in Configuration.property and taken via Utility for both the scenarios
-GetPrice class used for Api scenario
+## Utils
+src/test/java/Utils/Utility.java used as common methods for both Scenarios
+src/test/java/Utils/GetPrice.java used only for Api Scenario
 
 ## Property
-All the data kept as key and value format in Configuration.property file
+All the data kept as key and value format in src/test/resources/Property/Configuration.property file
 
 ## Logs
-All captured data will be written in Coinmarketcap.txt file under Log folder
+All captured data will be written in src/test/resources/Log/Coinmarketcap.txt file under Log folder
 
 ## Execution Process
 Both the scenarios will be executed parallel from the Runner class

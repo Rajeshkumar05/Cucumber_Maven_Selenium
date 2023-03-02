@@ -2,13 +2,14 @@ package StepDefinations;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
-import ObjectRepository.Utility;
+
+import Utils.GetPrice;
+import Utils.Utility;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
-import ObjectRepository.GetPrice;
 
 public class ApiScenarioStepDefination {
 
